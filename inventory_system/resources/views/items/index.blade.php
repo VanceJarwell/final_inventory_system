@@ -127,8 +127,6 @@
 						.then(function(response){
 								
 						});
-
-
 				},
 				deleteItem(item) {
 					axios.post('/items/'+item.id+'/delete')
@@ -138,7 +136,6 @@
 						});
 				}
 			}
-			
 		});
 </script>
 @endsection
